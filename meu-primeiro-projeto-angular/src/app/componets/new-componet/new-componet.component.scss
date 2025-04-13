@@ -1,0 +1,24 @@
+:host {
+   h2{
+    background: purple;
+   }
+}
+
+:host-context(.theme-dark){
+  h2{
+    background: black;
+    color: white
+  }
+}
+
+:host-context(.theme-blue){
+  h2{
+    background: blue;
+  }
+}
+
+::ng-deep {
+  .theme-blue{
+    border: 5px solid red($color: #000000);
+  }
+}
