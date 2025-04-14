@@ -1,19 +1,12 @@
 <div class="container">
     <img src="assets/img/lista-tarefas.png" alt="Sua lista está vazia - imagem ilustrativa" loading="eager" />
 
-    <button class="btn btn-primary">
+    @if(addItem()){
+    <button class="btn btn-primary" (click)="addItem.set(false)">
         Crie uma lista de tarefas
     </button>
-
-    <div>
-        <label class="input-label-text" for="inputValue">
-            <input type="text"
-            placeholder="Adicione um novo item"
-            id="inputValue"
-             autofocus />
-
-            <button class="btn btn-primary" title="Adicionar um novo item"></button>
-
-        </label>
-    </div>
+    }@else{
+        <app-input-add-list />
+        
+    }
 </div>
