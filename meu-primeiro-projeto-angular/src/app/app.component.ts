@@ -35,9 +35,15 @@ import { AngularPipesComponent } from './componets/pipes/angular-pipes/angular-p
     <!-- <app-template-deferrable-views /> -->
     <!-- <app-signals /> -->
     <!-- <app-pai-ou-mae />  -->
+   <!--  <app-angular-pipes /> --> 
+
 
     <h1>Curso de Angular</h1>
-    <app-angular-pipes />
+    <h2>Template-drive forms </h2>
+    
+  
+
+
   `,
 })
 export class AppComponent {}
