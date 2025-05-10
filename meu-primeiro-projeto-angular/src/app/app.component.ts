@@ -40,7 +40,7 @@ import { AngularPipesComponent } from './componets/pipes/angular-pipes/angular-p
 
     <h1>Curso de Angular</h1>
     <h2>Template-drive forms </h2>
-    
+    h
   
 
 
